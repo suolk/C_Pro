@@ -30,7 +30,7 @@ start:
             if (j == 3 && i > 7)
                 break;
             arr[j][i] = 4;
-            url = "Mahjong_count/pic/";
+            url = "pic/";
             url += i + 48;
             url += back;
             if (getimage(img, url.c_str()) == 0) {
